@@ -23,7 +23,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/id/thumb/b/bf/KFC_logo.svg/400px-KFC_logo.svg.png" alt="Logo" width="40" height="auto" class="d-inline-block align-text-center">
         <b class="fs-4"><i>KFC</i></b></a>
         <i class="fw-bold text-white">Jagonya Ayam</i>
-      <div class="container">
+      <div class="container ok">
         <header class="d-flex justify-content-end py-2">
           <ul class="nav">
             <li class="nav-item"><a href="#about" class="nav-link text-white fw-semibold">About</a></li>
@@ -112,7 +112,7 @@
         </div>
         <div class="col-md-6">
           <div class="h-100 p-5 bg-light border rounded-3">
-            <h2>I know you want Chicken 🍗</h2>
+            <h2 class="text-black fw-semibold">I know you want Chicken 🍗</h2>
             <p>Or buy our Burgers, Fries, Ice Cream, Cream Soup.</p>
           </div>
         </div>
@@ -185,11 +185,11 @@
 <!-- contact -->
 
 <div class="container">
-  <div><h1 class="text-dark">Contact Us</h1></div>
+  <div><h1 class="text-dark fw-bold">Contact Us</h1></div>
   <br />
   <div class="row">
       <div class="col-md-6">
-          <div id="maps">
+          <div class="maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253622.88165424124!2d106.48641813442156!3d-6.6645721684973225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c57d05a590cd%3A0xfb9057540ef76927!2sKFC%20Dramaga!5e0!3m2!1sid!2sid!4v1699598751256!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
       </div>
@@ -197,19 +197,19 @@
       <div class="col-md-6">
           <form class="my-form">
               <div class="form-group">
-                  <label for="form-name">Name</label>
+                  <label class="text-black fw-semibold" for="form-name">Name</label>
                   <input type="email" class="form-control" id="form-name" placeholder="Name">
               </div>
               <div class="form-group">
-                  <label for="form-email">Email Address</label>
+                  <label class="text-black fw-semibold" for="form-email">Email Address</label>
                   <input type="email" class="form-control" id="form-email" placeholder="Email Address">
               </div>
               <div class="form-group">
-                  <label for="form-subject">Telephone</label>
+                  <label class="text-black fw-semibold" for="form-subject">Telephone</label>
                   <input type="text" class="form-control" id="form-subject" placeholder="Subject">
               </div>
               <div class="form-group">
-                  <label for="form-message">Email your Message</label>
+                  <label class="text-black fw-semibold" for="form-message">Email your Message</label>
                   <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
               </div>
               <button class="btn btn-secondary" -webkit-text-stroke-color: black;type="submit">Contact Us</button>                
@@ -235,6 +235,10 @@
   }
   .my-form .form-control {
       border-radius: 0;
+  }
+  textarea{
+    height: 200px;
+    resize: none;
   }
 </style>
 

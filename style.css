@@ -234,3 +234,18 @@ body {
 		background-position: 0% 50%;
 	}
   }
+
+  .maps iframe{
+    width: 600px;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 767px){
+    .maps iframe{
+      width: 380px;
+      height: 200px;
+    }
+    .ok{
+      display: none;
+    }
+  }
